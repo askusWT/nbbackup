@@ -1,0 +1,6 @@
+# redirect everything to file.log
+some_command >file.log 2>&1
+
+# redirect errors to stdout and both to file.log
+do_something 2>&1 | tee -a file.log
+

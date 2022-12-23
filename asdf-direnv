@@ -1,0 +1,3 @@
+asdf direnv setup --shell zsh --version latest
+# then anywhere different local tools are needed:
+asdf direnv local [<tool> <version>]...
